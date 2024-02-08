@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500&family=Nunito+Sans:opsz@6..12&display=swap');
+
+* {
+    font-family: 'Instrument Sans', sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: #1c1c1c;
+}
+
+.arrow {
+    fill: #9E9EA7;
+    cursor: pointer;
+    width: 20px;
+    margin-top: 1.2rem;
+    margin-right: 1.2rem;
+}
+
+.header {
+    margin-top: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+@media (max-width: 400px) {
+    .search {
+        max-width: 275px;
+    }
+    .arrow {
+        margin-right: .5rem;
+    }
+}
+
+@media (max-width: 340px) {
+    .search {
+        max-width: 250px;
+    }
+}
